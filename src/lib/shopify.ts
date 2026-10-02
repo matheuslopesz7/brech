@@ -158,7 +158,7 @@ export function getMeasures(p: ShopifyProduct) {
   return p.node.tags
     .filter((t) => MEASURE_RE.test(t))
     .map((t) => {
-      const [k, v] = t.split(/[-_:]/);
+      const [k = "", v = ""] = t.split(/[-_:]/);
       return { label: k.charAt(0).toUpperCase() + k.slice(1).toLowerCase(), value: v };
     });
 }

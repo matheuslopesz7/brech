@@ -40,7 +40,7 @@ export function Footer() {
         <div>
           <p className="mb-3 font-display text-lg uppercase tracking-wide">Dúvidas frequentes</p>
           <Accordion type="single" collapsible>
-            {FAQ.map(([q, a]) => (
+            {FAQ.map(([q = "", a = ""]) => (
               <AccordionItem key={q} value={q} className="border-primary-foreground/20">
                 <AccordionTrigger className="text-left text-sm">{q}</AccordionTrigger>
                 <AccordionContent className="text-sm opacity-75">{a}</AccordionContent>

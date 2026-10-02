@@ -11,7 +11,7 @@ export type ReservationStatus = "reservada" | "vendida";
 export interface Reservation {
   productId: string;
   title: string;
-  image?: string;
+  image?: string | undefined;
   price: string;
   status: ReservationStatus;
   createdAt: number;
