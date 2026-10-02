@@ -1,7 +1,7 @@
 import { Instagram, MessageCircle, Music2 } from "lucide-react";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 
-export const WHATSAPP_URL = "https://wa.me/5500000000000?text=Ol%C3%A1!%20Tenho%20uma%20d%C3%BAvida%20sobre%20uma%20pe%C3%A7a.";
+export const WHATSAPP_URL = "https://wa.me/5511961395273?text=Ol%C3%A1!%20Tenho%20uma%20d%C3%BAvida%20sobre%20uma%20pe%C3%A7a.";
 
 const FAQ = [
   ["As peças são realmente únicas?", "Sim! Cada peça tem só uma unidade. Achou, levou."],
@@ -33,7 +33,7 @@ export function Footer() {
         <div className="space-y-2 text-sm">
           <p className="mb-3 font-display text-lg uppercase tracking-wide">Atendimento</p>
           <p className="opacity-80">contato@whiteofpeace.com.br</p>
-          <p className="opacity-80">WhatsApp: (00) 00000-0000</p>
+          <p className="opacity-80">WhatsApp: (11) 96139-5273</p>
           <p className="opacity-80">Seg a Sex · 9h às 18h</p>
           <p className="opacity-80">Sáb · 9h às 13h</p>
         </div>
