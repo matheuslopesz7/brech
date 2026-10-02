@@ -33,7 +33,7 @@ export function Footer() {
         <div className="space-y-2 text-sm">
           <p className="mb-3 font-display text-lg uppercase tracking-wide">Atendimento</p>
           <p className="opacity-80">contato@whiteofpeace.com.br</p>
-          <p className="opacity-80">WhatsApp: (00) 00000-0000</p>
+          <p className="opacity-80">WhatsApp: (11) 96139-5273</p>
           <p className="opacity-80">Seg a Sex · 9h às 18h</p>
           <p className="opacity-80">Sáb · 9h às 13h</p>
         </div>
